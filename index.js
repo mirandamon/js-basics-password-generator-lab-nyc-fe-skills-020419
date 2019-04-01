@@ -18,7 +18,7 @@ window.addEventListener("load", () => {
       // we pick a random letter 
       const randomIndex = Math.floor(Math.random() * 26)
       console.log(randomIndex)
-      // startingString += lowerCaseLetters[randomIndex]
+      startingString += lowerCaseLetters[randomIndex]
     }
     console.log(startingString)
     
