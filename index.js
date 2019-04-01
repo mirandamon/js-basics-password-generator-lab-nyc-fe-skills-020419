@@ -8,7 +8,16 @@ window.addEventListener("load", () => {
     event.preventDefault()
     // get the thing that was entered
     const input = document.getElementById('password-length')
-    console.log(input.value)
+    const howManyCharacters = input.value
+    // ex: howManyCharacters = 10
+    // we want to loop and make a random letter every time
+    // start from 0, finish at 9
+    for (let i = 0; i < howManyCharacters; i++) {
+      console.log(hi)
+    }
+    
+    
+    
   }
   
   document.addEventListener('submit', onSubmit)
