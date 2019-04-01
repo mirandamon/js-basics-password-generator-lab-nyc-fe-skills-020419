@@ -5,7 +5,7 @@ window.addEventListener("load", () => {
   
   function onSubmit(event) {
     // prevent the default native behavior
-    // event.preventDefault()
+    event.preventDefault()
     // get the thing that was entered
     const input = document.getElementById('password-length')
     console.log(input.value)
