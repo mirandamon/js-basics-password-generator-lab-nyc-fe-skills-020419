@@ -1,6 +1,6 @@
 window.addEventListener("load", () => {
   //start your code here
-  
+                          //0 1 2....................25
   const lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz"
   
   function onSubmit(event) {
@@ -14,7 +14,8 @@ window.addEventListener("load", () => {
     // start from 0, finish at 9
     for (let i = 0; i < howManyCharacters; i++) {
       // we pick a random letter 
-      console.log(Math.floor(Math.random() * 26))
+      const randomIndex = Math.floor(Math.random() * 26)
+      console.log(lowerCaseLetters[randomIndex])
       // myArray[0]
       
     }
