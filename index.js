@@ -16,7 +16,6 @@ window.addEventListener("load", () => {
       // we pick a random letter 
       const randomIndex = Math.floor(Math.random() * 26)
       console.log(lowerCaseLetters[randomIndex])
-      // myArray[0]
       
     }
     
