@@ -14,7 +14,7 @@ window.addEventListener("load", () => {
     // start from 0, finish at 9
     for (let i = 0; i < howManyCharacters; i++) {
       // we pick a random letter 
-      Math.floor(Math.random() * 26)
+      console.log(Math.floor(Math.random() * 26))
     }
     
     
