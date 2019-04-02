@@ -29,7 +29,7 @@ window.addEventListener("load", () => {
     
     for (let i = 0; i < howManyCharacters; i++) {
       // we pick a random letter 
-      console.log(startingString)
+
       
       // are we under the limit, add another character
       if (startingString.length < howManyCharacters) {
