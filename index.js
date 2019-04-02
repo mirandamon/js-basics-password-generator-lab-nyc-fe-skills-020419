@@ -25,7 +25,7 @@ window.addEventListener("load", () => {
     
     // 10 is the number of characters
     // ''    
-    // 'aB3('
+    // 'aB3(bD3<38'
     
     for (let i = 0; i < howManyCharacters; i++) {
       // we pick a random letter 
