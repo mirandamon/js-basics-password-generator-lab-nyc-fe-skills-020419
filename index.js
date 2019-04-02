@@ -12,6 +12,12 @@ window.addEventListener("load", () => {
     // get the thing that was entered
     const input = document.getElementById('password-length')
     const howManyCharacters = input.value
+    if (input.value < 4) {
+      
+    }
+    
+    
+    
     // ex: howManyCharacters = 10
     // we want to loop and make a random letter every time
     // start from 0, finish at 9
