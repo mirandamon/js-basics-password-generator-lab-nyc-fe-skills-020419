@@ -19,16 +19,16 @@ window.addEventListener("load", () => {
     
     for (let i = 0; i < howManyCharacters; i++) {
       // we pick a random letter 
-      const randomIndex = Math.floor(Math.random() * 26)
+      const randomIndex = Math.floor(Math.random() * lowerCaseLetters.length)
       startingString += lowerCaseLetters[randomIndex]
       
-      const randomIndex = Math.floor(Math.random() * 26)
+      const randomIndex = Math.floor(Math.random() * upperCaseLetters.length)
       startingString += lowerCaseLetters[randomIndex]
       
-      const randomIndex = Math.floor(Math.random() * 26)
+      const randomIndex = Math.floor(Math.random() * numbers.length)
       startingString += lowerCaseLetters[randomIndex]
       
-      const randomIndex = Math.floor(Math.random() * 26)
+      const randomIndex = Math.floor(Math.random() * specialCharacters.length)
       startingString += lowerCaseLetters[randomIndex]
     }
 
