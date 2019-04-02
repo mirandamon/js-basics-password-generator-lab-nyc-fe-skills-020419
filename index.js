@@ -23,6 +23,10 @@ window.addEventListener("load", () => {
     // start from 0, finish at 9
     let startingString = ''
     
+    // 10 is the number of characters
+    // ''    
+    // 'aB3('
+    
     for (let i = 0; i < howManyCharacters; i++) {
       // we pick a random letter 
       
