@@ -20,9 +20,9 @@ window.addEventListener("load", () => {
     for (let i = 0; i < howManyCharacters; i++) {
       // we pick a random letter 
       
-      if (startingString.length ) {
-      let randomIndex = Math.floor(Math.random() * lowerCaseLetters.length)
-      startingString += lowerCaseLetters[randomIndex]
+      if (startingString.length < howManyCharacters) {
+        let randomIndex = Math.floor(Math.random() * lowerCaseLetters.length)
+        startingString += lowerCaseLetters[randomIndex]
       }
       
       randomIndex = Math.floor(Math.random() * upperCaseLetters.length)
