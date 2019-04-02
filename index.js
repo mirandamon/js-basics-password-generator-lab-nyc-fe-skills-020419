@@ -31,7 +31,7 @@ window.addEventListener("load", () => {
       // we pick a random letter 
 
       
-      // are we under the limit, add another character
+      // are we under the limit? add another character
       if (startingString.length < howManyCharacters) {
         let randomIndex = Math.floor(Math.random() * lowerCaseLetters.length)
         startingString += lowerCaseLetters[randomIndex]
