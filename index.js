@@ -11,9 +11,9 @@ window.addEventListener("load", () => {
     event.preventDefault()
     // get the thing that was entered
     const input = document.getElementById('password-length')
-    const howManyCharacters = input.value
+    let howManyCharacters = input.value
     if (input.value < 4) {
-      
+      howManyCharacters = 4
     }
     
     
