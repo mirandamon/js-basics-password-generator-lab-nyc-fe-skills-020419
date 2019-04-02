@@ -4,7 +4,7 @@ window.addEventListener("load", () => {
   const lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz"
   const upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
   const numbers = "0123456789"
-  const specialCharacters = ""
+  const specialCharacters = "!#$%&()*+,-./:;<=>?@[\]^_{|}~"
   
   function onSubmit(event) {
     // prevent the default native behavior
