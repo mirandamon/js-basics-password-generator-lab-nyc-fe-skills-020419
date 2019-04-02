@@ -2,6 +2,8 @@ window.addEventListener("load", () => {
   //start your code here
                           //0 1 2....................25
   const lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz"
+  const upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  const numbers = ""
   
   function onSubmit(event) {
     // prevent the default native behavior
